@@ -5,7 +5,6 @@ const tonne = document.getElementById("tonne");
 const pound = document.getElementById("pound");
 const miligrams = document.getElementById("miligrams");
 const microgram = document.getElementById("microgram");
-const select = document.getElementById("select");
 
 output.style.display = "none";
 weight.addEventListener("input", e => {
@@ -21,4 +20,3 @@ weight.addEventListener("input", e => {
     pound.innerHTML = `Pound : ${(val * 2.20462).toFixed(3)}`;
   }
 });
-console.log(weight.value);
