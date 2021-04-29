@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  transition: 0.3s;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3498db;
+}
+.center-div {
+  width: 500px;
+  height: auto;
+  background: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+h1 {
+  margin-bottom: 20px;
+}
+#output {
+  width: 100%;
+}
+input {
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+input:focus {
+  border: 2px solid #3498db;
+  outline: none;
+}
+.output-val {
+  width: 100%;
+  min-height: 50px;
+  margin: 20px 0;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 1.2em;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  word-wrap: wrap;
+}
+.output-val:nth-child(1) {
+  background: #f39c12;
+}
+.output-val:nth-child(2) {
+  background: #e74c3c;
+}
+.output-val:nth-child(3) {
+  background: #9b59b6;
+}
+.output-val:nth-child(3) {
+  background: #2980b9;
+}
+.output-val:nth-child(4) {
+  background: #10ac84;
+}
+.output-val:nth-child(5) {
+  background: #5f27cd;
+  margin-bottom: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .center-div {
+    width: auto;
+    margin: 0 20px;
+    padding: 30px;
+  }
+  .output-val {
+    font-size: 1em;
+  }
+}
