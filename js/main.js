@@ -26,7 +26,6 @@ const getslectedValue = () => {
       output.style.display = "none";
     } else {
       output.style.display = "block";
-
       tonne.innerHTML = `Tonne : ${(val * 0.001).toFixed(3)}`;
       grams.innerHTML = `Gram : ${val * 1000}`;
       miligrams.innerHTML = `Miligram : ${val * 1e6}`;
