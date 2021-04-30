@@ -11,9 +11,20 @@
     <div class="container">
       <div class="center-div">
         <h1>Weight Converter</h1>
-        <input type="number" id="weight" placeholder="Enter Kilograms" />
+        <div class="getinput">
+          <input type="number" id="weight" placeholder="Enter Kilograms" />
+          <select id="list" onchange="getslectedValue()">
+            <option value="KiloGram">Kilo Gram</option>
+            <option value="Tonne">Tonne</option>
+            <option value="Gram">Gram</option>
+            <option value="MiliGram">Mili Gram</option>
+            <option value="MicroGram">Micro Gram</option>
+            <option value="Pound">Pound</option>
+          </select>
+        </div>
         <div id="output">
           <div class="output-val" id="tonne"></div>
+          <div class="output-val" id="kilogram"></div>
           <div class="output-val" id="grams"></div>
           <div class="output-val" id="miligrams"></div>
           <div class="output-val" id="microgram"></div>

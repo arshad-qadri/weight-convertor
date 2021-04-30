@@ -33,15 +33,19 @@ h1 {
 }
 input {
   height: 50px;
-  width: 100%;
+  width: 70%;
   padding-left: 20px;
   border: 1px solid #3498db;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   font-size: 1.2em;
 }
 input:focus {
   border: 2px solid #3498db;
   outline: none;
+}
+input:focus select {
+  border: 2px solid #3498db;
 }
 .output-val {
   width: 100%;
@@ -52,6 +56,7 @@ input:focus {
   font-size: 1.2em;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
+  line-height: 50px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -74,12 +79,29 @@ input:focus {
 }
 .output-val:nth-child(5) {
   background: #5f27cd;
-  margin-bottom: 0;
+}
+.output-val:nth-child(6) {
+  background: #5f2796;
+  /* margin-bottom: 0; */
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+.getinput {
+  width: 100%;
+  display: flex;
+}
+.getinput select {
+  width: 30%;
+  background: #3498db;
+  outline: none;
+  border: 1px solid #3498db;
+  font-size: 1em;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 @media only screen and (max-width: 768px) {
   h1 {
