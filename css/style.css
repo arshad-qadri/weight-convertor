@@ -44,9 +44,7 @@ input:focus {
   border: 2px solid #3498db;
   outline: none;
 }
-input:focus select {
-  border: 2px solid #3498db;
-}
+
 .output-val {
   width: 100%;
   min-height: 50px;
@@ -103,7 +101,9 @@ input::-webkit-inner-spin-button {
   color: #fff;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  cursor: pointer;
 }
+
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 1.5em;

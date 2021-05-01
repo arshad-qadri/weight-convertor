@@ -31,7 +31,6 @@ const getslectedValue = () => {
       miligrams.innerHTML = `Miligram : ${val * 1e6}`;
       microgram.innerHTML = `Microgram : ${val * 1e9}`;
       pound.innerHTML = `Pound : ${(val * 2.20462).toFixed(3)}`;
-      console.log(slectedValue);
     }
   }
   // -----------tonne-------------------
@@ -47,9 +46,7 @@ const getslectedValue = () => {
       miligrams.innerHTML = `Miligram : ${val * 1e9}`;
       microgram.innerHTML = `Microgram : ${val * 1e12}`;
       pound.innerHTML = `Pound : ${(val * 2204.62).toFixed(3)}`;
-      console.log(slectedValue);
     }
-    console.log(slectedValue);
   }
   // ---------------------gram-----------------------
   else if (slectedValue === "Gram") {
@@ -64,9 +61,7 @@ const getslectedValue = () => {
       miligrams.innerHTML = `Miligram : ${val * 1000}`;
       microgram.innerHTML = `Microgram : ${val * 1e6}`;
       pound.innerHTML = `Pound : ${(val * 0.00220462).toFixed(3)}`;
-      console.log(slectedValue);
     }
-    console.log(slectedValue);
   }
   // ----------------miligram------------------
   else if (slectedValue === "MiliGram") {
@@ -81,9 +76,7 @@ const getslectedValue = () => {
       grams.innerHTML = `Grams : ${val * 0.001}`;
       microgram.innerHTML = `Microgram : ${val * 1000}`;
       pound.innerHTML = `Pound : ${(val * 2.2046e-6).toFixed(3)}`;
-      console.log(slectedValue);
     }
-    console.log(slectedValue);
   }
   // --------------microgram-------------------
   else if (slectedValue === "MicroGram") {
@@ -98,9 +91,7 @@ const getslectedValue = () => {
       grams.innerHTML = `Gram : ${val * 1e-6}`;
       miligrams.innerHTML = `Miligram : ${val * 0.001}`;
       pound.innerHTML = `Pound : ${(val * 2.2046e-9).toFixed(3)}`;
-      console.log(slectedValue);
     }
-    console.log(slectedValue);
   }
   // -------------pound------------------------------
   else if (slectedValue === "Pound") {
@@ -115,9 +106,7 @@ const getslectedValue = () => {
       grams.innerHTML = `Gram : ${val * 453.592}`;
       miligrams.innerHTML = `Miligram : ${val * 453592}`;
       microgram.innerHTML = `Microgram : ${(val * 4.536e8).toFixed(3)}`;
-      console.log(slectedValue);
     }
-    console.log(slectedValue);
   }
 };
 
